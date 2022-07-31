@@ -13,7 +13,13 @@ background-color:#808080;
     background-color:#6eb6eb;
     color:black;
 }
-
+.tim{
+color:#b462ff;
+}
+.tim:hover{
+background-color:#b462ff;
+color:black;
+}
 .cmt{
     color:#53a347;
 }
