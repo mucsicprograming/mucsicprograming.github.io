@@ -1,0 +1,80 @@
+.name{
+    color:#6eb6eb;
+}
+.gtay{
+color: #808080;
+}
+.gtay:hover{
+background-color:#808080;
+    color:black;
+
+}
+.btnname:hover{
+    background-color:#6eb6eb;
+    color:black;
+}
+
+.cmt{
+    color:#53a347;
+}
+
+.btncmt:hover{
+    background-color:#53a347;
+    color:black;
+}
+
+.return{
+    color:#bc95df;
+}
+
+.btnreturn{
+    color:#bc95df;
+    color:black;
+}
+
+.str{
+    color:#ab7e5f;
+}
+
+.btnstr:hover{
+    background-color:#ab7e5f;
+    color:black;
+}
+.buoi{
+color:#c1d9a9;
+}
+.char{
+    color:#808080;
+}
+
+.btnchar:hover{
+    background-color:#808080;
+    color:black;
+}
+
+.func{
+    color:#808080;
+}
+
+.btnfunc:hover{
+    background-color:#c1d9a9;
+    color:black;
+}
+
+.struct{
+    color:#45bfac;
+}
+
+.btnstruct:hover{
+    background-color:#45bfac;
+    color:black;
+}
+
+.old-type{
+    color:#4a94d2;
+}
+
+.btnold-type:hover{
+    background-color:#4a94d2;
+    color:black;
+}
