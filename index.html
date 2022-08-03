@@ -17,22 +17,20 @@ display:inline-flex;
     word-wrap: break-word;
     overflow: auto;
     overflow: -moz-scrollbars-none;
-    -ms-overflow-style: none;
+text-align:left;
 }
 .tabb{
    margin:0;
     height:100%;
-    padding:30px 40px;
+    padding:30px 30px;
     box-sizing: border-box;
     word-wrap: break-word;
     overflow: auto;
     overflow: -moz-scrollbars-none;
-    -ms-overflow-style: none;
 }
 
 
 .btn{
-display: inline;
 	font-family: inherit;
 	font-weight: inherit;
 	font-size: inherit;
@@ -41,9 +39,20 @@ display: inline;
 	margin: 0;
 	background: transparent;
 	border: none;
-	outline: none;
-	color: #898989;
 
+
+}
+.btn1{
+display: inline;
+	font-family: inherit;
+	
+	font-size: inherit;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	border: none;
+	outline: none;
+	color:#808080;
 }
 .frame{
     width:auto;
@@ -84,14 +93,14 @@ div {
 	<br>
 	<br>
 	<span  style="color:#1beb9e;">_______________________________</span> <br><br>
-	<button class = "btn">[----]</button> <button class = "btn">[---]</button> <button class = "btn">[----]</button> <button class = "btn">[---]</button><button class = "btn">[----]</button><br>
-	<button class = "btn">--:--:--</button> <button class = "btn">[--]</button> <button class = "btn">....</button> <button class = "btn">[--]</button> <span class = "btn random tim">[random]</span> <br><br><br><br> <br>
+	<button class = "btn1">[----]</button> <button class = "btn1">[---]</button> <button class = "btn1">[----]</button> <button class = "btn1">[---]</button><button class = "btn1">[----]</button><br>
+	<button class = "btn1">--:--:--</button> <button class = "btn1">[--]</button> <button class = "btn1">....</button> <button class = "btn1">[--]</button> <span class = "btn random tim">[random]</span> <br><br><br><br> <br><br><br>
 	<span class="text-code frame" style="font-family: FirstFont;font-size:18px;color:black">My social network</span><br>
 	<a style="text-decoration: none;"  class="func btnchar" href="https://github.com">[Github]</a> <br>
-	<a style="text-decoration: none;" class="func btnchar"  href="https://www.facebook.com/unstoppable48">[Facebook]</a>
+	<a style="text-decoration: none;" class="func btnchar"  href="https://www.facebook.com/unstoppable48">[Facebook]</a><br>
 	<span style = "color:#808080;font-family:FirstFont;">[Battle AMFT with me in Block Man Go. Thank you!! UwU]</span> <br> <br><br>
 </div>
- <div class="tab" style="width:39%;color:#8a8c92;font-family:FirstFont;">
+ <div class="tab" style="width:40%;color:#8a8c92;font-family:FirstFont;">
 <span style="font-size:40px;color:#ff9528;">LYRIC</span> <br>  <span style="font-size:24px;color:rgb(128,128,128);" class="char son-name"></span>
 <p class="char eon-name"></p>
 <br>
@@ -105,17 +114,17 @@ div {
 
   
 </div>
-  <div class="tabb" style="width:25%;font-family:FirstFont;color:#c1d9a9;">
+  <div class="tabb" style="width:30%;font-family:FirstFont;color:#c1d9a9;">
           <span style="font-size:40px;">LIST MUSIC</span>
           <div style="font-family:FirstFont;color:#8a8c92;" class="music-content">
 
             <audio id="audio"></audio>
             <span>[</span><span class="char current-time">00:00</span> <span class="char">- </span><span class="char duration-time"></span><span>]</span><br>
-            <span class="struct btnstruct back">[Prev]</span> <span class="buoi btnfunc play-song" >[Play]</span> <span class="name btnname forward">[Next]</span> <span class="str btnstr loop">[Loop]</span>
+            <button class="struct btnstruct back btn">[Prev]</button> <button class="buoi btnfunc play-song btn" >[Play]</button> <button class="name btn btnname forward">[Next]</button> <button class="str btn btnstr loop">[Loop]</button>
           </div>
 
-          <div style="font-family:FirstFont;" class="list-song">
-          </div>	
+          <button style="font-family:FirstFont;text-align:left" class="list-song btn">
+          </button>	
         </div>
       </div>
     </div>
